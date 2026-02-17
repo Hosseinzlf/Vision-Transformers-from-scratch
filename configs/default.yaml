@@ -1,0 +1,24 @@
+# Default training config for ViT on CIFAR-10
+# Override via CLI or environment when running scripts.
+
+dataset:
+  name: cifar10
+  image_size: [72, 72]   # (height, width); 72x72 for CIFAR-10 with 6x6 patches
+  num_classes: 10
+
+model:
+  patch_size: 6
+  d_model: 128
+  num_heads: 2
+  num_layers: 4
+  mlp_ratio: 2.0
+  dropout_rate: 0.1
+
+training:
+  batch_size: 1024
+  epochs: 20
+  use_tpu: false
+  tpu_address: ""        # e.g. "" for Colab, "local" for local TPU
+
+optimizer:
+  name: adam

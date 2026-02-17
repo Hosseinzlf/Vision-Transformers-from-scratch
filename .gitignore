@@ -127,3 +127,10 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Project-specific
+checkpoints/
+*.keras
+*.h5
+portrait.jpg
+data/
