@@ -157,8 +157,4 @@ PYTHONPATH=src python -m pytest tests/ -v
 - **Authors:** Alexey Dosovitskiy, Lucas Beyer, et al. (Google Research)  
 - **Code:** This repo is an independent implementation for educational use.
 
----
 
-## License
-
-MIT. See [LICENSE](LICENSE).
