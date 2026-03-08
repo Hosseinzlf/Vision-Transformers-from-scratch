@@ -2,7 +2,7 @@
 
 A clean, modular implementation of the **Vision Transformer (ViT)** in TensorFlow/Keras, following the architecture in [*An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale*](https://arxiv.org/abs/2010.11929) (Dosovitskiy et al., ICLR 2021).
 
-% Suitable for learning, experimentation, and as a base for custom variants. Includes training on **CIFAR-10** with optional **TPU/GPU** support.
+Suitable for learning, experimentation, and as a base for custom variants. Includes training on **CIFAR-10** with optional **TPU/GPU** support.
 
 ---
 
